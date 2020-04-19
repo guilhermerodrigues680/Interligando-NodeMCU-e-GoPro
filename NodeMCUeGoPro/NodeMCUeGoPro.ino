@@ -4,7 +4,7 @@
 */
 
 #include <ESP8266WiFi.h>//Biblioteca que gerencia o WiFi.
-#include <WiFiUDP.h> //Biblioteca necessaria para Wake On Lan
+#include <WiFiUdp.h> //Biblioteca necessaria para Wake On Lan
 const char* ssid = "Gui__GoPro"; //Rede
 const char* password = "99982965"; //Senha
 WiFiServer server(80);
